@@ -67,6 +67,27 @@ body {
   height: auto;
   transform: translate(-50%, -50%);
 }
+/* Nav Bar */
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+nav {
+  height: 40px;
+  width: 100%;
+  background: #4a4d50;
+  font-size: 11pt;
+  font-family: 'PT Sans', Arial, sans-serif;
+  font-weight: bold;
+  position: relative;
+  border-bottom: 2px solid #4a4d50;
+  display: block;
+}
 
 
 
