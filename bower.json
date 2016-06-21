@@ -1,0 +1,22 @@
+{
+  "name": "concierge",
+  "homepage": "https://github.com/bonz027/concierge",
+  "authors": [
+    "toneloke <david.guerrero87@live.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.7",
+    "jquery": "^3.0.0"
+  }
+}
