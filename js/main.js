@@ -1,29 +1,22 @@
-angular.module('Concierge', [])
-  .controller('introController', introController)
+console.log("Concierge Module is loaded!!!!!")
 
-function introController() {
-  var introCtrl = this;
-};
+angular.module('Concierge', ['ui.router'])
+  // UI ROUTER CONFIGURATION
+  .config(function routerConfig($stateProvider, $urlRouterProvider){
+    $stateProvider
+      .state('landing',{
+        url: '/',
+        templateUrl: 'partials/landing.html'
+      })
+      .state('home',{
+        url: '/home',
+        templateUrl: 'partials/home.html',
+        controller: 'homeCtrl as hCtrl'
+      })
+    $urlRouterProvider.otherwise('/')
+  })
+  .controller('homeCtrl', homeCtrl)
 
-$(".hover").mouseleave(
-  function () {
-    $(this).removeClass("hover");
-  }
-  // $function() {
-  //   var pull        = $('#pull');
-  //       menu        = $('nav ul');
-  //       menuHeight  = menu.height();
-  //
-  //   $(pull).on('click', function(e) {
-  //     e.preventDefault();
-  //     menu.slideToggle();
-  //   });
-  //
-  //   $(window).resize(function() {
-  //     var w = $(window).width();
-  //     if(w > 320 && menu.is)(':hidden')) {
-  //          menu.removeAttr('style');
-  //     }
-  //   });
-  // });
-);
+function homeCtrl () {
+  var hCtrl = this
+}
