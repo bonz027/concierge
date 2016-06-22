@@ -1,9 +1,9 @@
 /* RESETS */
 
 html,body,div,h1,p,a,video {
-  margin: -5px;
+  margin: 0px;
   padding: 0;
-  color: #daccce;
+  color: #fbf8f8;
   font-size: 22px;
   color
 }
@@ -26,7 +26,7 @@ body {
 }
 .content {
   position: relative;
-  top: 30%;
+  top: 15%;
   z-index: 2;
   margin: 0 auto;
   max-width: 720px;
@@ -34,7 +34,7 @@ body {
 }
 
 .content__heading {
-  margin-bottom: 24px;
+  margin-bottom: 5px;
   color: #ecf0f1;
   font-size: 70px;
 }
@@ -42,7 +42,7 @@ body {
 .content__teaser {
   margin-bottom: 24px;
   color: #clac98;
-  font-size: 22px;
+  font-size: 23px;
 }
 
 .content__cta {
@@ -52,7 +52,7 @@ body {
   color: #ecf0f1;
   font-size: 22px;
   text-decoration: none;
-  border: solid 4px #999cac;
+  border: solid 4px rgba(236, 240, 241, 0.31);
 }
 
 /* VIDEO */
