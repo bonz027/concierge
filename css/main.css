@@ -53,6 +53,7 @@ body {
   font-size: 22px;
   text-decoration: none;
   border: solid 4px rgba(236, 240, 241, 0.31);
+  border-radius: 5px;
 }
 
 /* VIDEO */
@@ -88,42 +89,6 @@ nav {
   border-bottom: 2px solid #4a4d50;
   display: block;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*element.style {
